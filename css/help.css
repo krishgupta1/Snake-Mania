@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-image: url(../img/bg.jpg);
+    min-height: 90vh;
+    background-size: 100vw 100vh;
+    /* display: flex; */
+    background-repeat: no-repeat;
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+    
+h1{
+    text-align: center;
+    font-size: 62px;
+    margin: 45px;
+}
+
+li{
+    margin-left: 140px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#list{
+    
+    font-size: 40px;
+    margin: 40px;
+}
+
+.img{
+    height: 80px;
+}

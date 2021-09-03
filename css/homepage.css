@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/bg.jpg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 62px;
+    margin: 45px;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}
+
+.navlist ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+a{
+    color: black;
+    margin: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
